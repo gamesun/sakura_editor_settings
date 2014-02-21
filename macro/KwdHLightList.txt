@@ -1,0 +1,1 @@
+\buc_spdCmd\b|\buc_targetSpd\b|\ben_motCmd\b|\bplsMot_initPhase\b|\bplsMot_initChang\b|\bplsMot_initDown\b|\bplsMot_actStop\b|\bsyntaxspec\b|\bCHKSUM_TOP\b|\b0x30\b|\bpuc_PcDwnCnt\b|\bPDWN_SEQ_HVDWN\b|\buc_aveCal16Invalid_L\b

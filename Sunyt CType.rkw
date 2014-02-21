@@ -1,0 +1,17 @@
+﻿// 正規表現キーワード Ver1
+RxKey[000]=RK1,/#\bif\b|#\belse\b|#\bendif\b|#\bifdef\b|#\bifndef\b|#\bdefine\b|#\binclude\b/k
+RxKey[001]=RK2,/SW_FS_HETER == FUSER_IH/k
+RxKey[002]=KW3,/\ben[A-Z]{1}[a-zA-Z0-9_]+/k
+RxKey[003]=KW4,/\bst[A-Z]{1}[a-zA-Z0-9_]+/k
+RxKey[004]=KW2,/\bLOW\b|\bHI\b|\bOFF\b|\bON\b|\bRESET\b|\bSET\b|\bNG\b|\bOK\b|\bNO\b|\bYES\b|\bDISABLE\b/k
+RxKey[005]=KW2,/\bENABLE\b|\bINVALID\b|\bVALID\b|\bSTOP\b|\bSTART\b|\bIN_COMPLETE\b|\bCOMPLETE\b|\bIN_ACTIVE\b/k
+RxKey[006]=KW2,/\bACTIVE\b|\bIN_CONNECT\b|\bCONNECT\b|\bNOT_EXIST\b|\bEXIST\b|\bNEEDLESS\b|\bNEED\b|\bNORMAL\b/k
+RxKey[007]=KW2,/\bERROR\b|\bREAD\b|\bWRITE\b/k
+RxKey[008]=WQT,/(?<=#include[ \t])<.*>/k
+RxKey[009]=KW5,/==|!=|<=|>=|(?<!-)<|(?<!-)>|\&\&|\|\|/k
+RxKey[010]=KW2,/\b[A-Z]{1}[0-9A-Z_]+\b/k
+RxKey[011]=KW7,/SimSetDummyValue/k
+RxKey[012]=RK3,/\b(?!(switch|return|for|if|while))\w[a-zA-Z0-9_]+(?=\()/k
+RxKey[013]=NUM,/(\b0[xX][0-9a-fA-F]+\b)|(\b(?<![-.])\d+(\.\d+)?[fF]?(?!\.)\b)|(\b(?<![-.])\d+[uU]?[lL]?(?!\.)\b)/k
+RxKey[014]=KW9,/(-{1}\d+(\.\d+)?[fF]?(?!\.)\b)|(-{1}\d+[lL]?(?!\.)\b)/k
+RxKey[015]=KW6,/DBG_ASSERT|ASSERT/k

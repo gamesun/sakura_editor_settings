@@ -1,0 +1,10 @@
+﻿// Shell(標準的な環境変数).kwd キーワード定義ファイル
+// CASE=True
+
+COLUMNS
+HOME
+LANG
+LC_COLLATE
+LC_CTYPE
+LINES
+PATH

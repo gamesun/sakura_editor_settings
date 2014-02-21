@@ -1,0 +1,2 @@
+﻿//キーボードマクロのファイル
+S_ExecCommand('D:\sunyt\01_tool\emacs-24.2.50\bin\cscope -f D:\sunyt\91_MyWorkSpace\gitZeusBkOWN\31_Src\cscope.out -d -L -0 emode_seq', 1);	// 外部コマンド実行

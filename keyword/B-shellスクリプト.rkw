@@ -1,0 +1,15 @@
+﻿// 正規表現キーワード Ver1
+RxKey[000]=RK9,/\$[1-9]/k
+RxKey[001]=RK3,/\[[\$]?/k
+RxKey[002]=RK3,/\]/k
+RxKey[003]=RK2,/[\.]([kcz]|ba|tc)?sh\b/k
+RxKey[004]=RK5,/\$\?/k
+RxKey[005]=RK4,/\$[\#,\*,@,\?,\!,\-]{1}/k
+RxKey[006]=RK4,/\$\{?[A-Z,a-z,0-9,\_]+\}?/k
+RxKey[007]=RK6,/\//k
+RxKey[008]=RK1,/\#\!\/bin\/(k|ba|c)?sh/k
+RxKey[009]=RK7,/\`/k
+RxKey[010]=KW9,/(echo|printf)/k
+RxKey[011]=KW4,/exit/k
+RxKey[012]=RK7,/\=/k
+RxKey[013]=RK8,/[\&]{1,2}/k
